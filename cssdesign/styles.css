@@ -1,0 +1,244 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    margin: 5% 15%;
+}
+
+.col-poster{
+    display: flex;
+
+} 
+
+.sedan-col{
+background-color: hsl(31, 77%, 52%);
+border-radius: 10px 0 0 10px;
+}
+
+.suv-col{
+    background-color: hsl(184, 100%, 22%);
+    }
+
+p{
+    padding-bottom: 70px;   
+}
+
+.luxurycar-col{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 10px 10px 0;
+        }
+           
+.column{
+    text-align: left;
+    padding: 5%;
+}
+
+.col-heading{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%); 
+    border-radius: 20px;
+    padding: 3% 10%;
+    border: none;
+}
+
+.content{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.b-1{ 
+    color: hsl(31, 77%, 52%); 
+    border: 1px solid white;
+}
+.b-1:hover {
+    background: hsl(31, 77%, 52%); 
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.b-2{ 
+    color: hsl(184, 100%, 22%); 
+    border: 1px solid white;
+
+}
+
+.b-2:hover {
+    background: hsl(184, 100%, 22%); 
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.b-3{ 
+    color: hsl(179, 100%, 13%); 
+    border: 1px solid white;
+
+}
+.b-3:hover {
+    background: hsl(179, 100%, 13%);
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+
+@media (max-width: 700px){
+
+.col-poster{
+    flex-direction: column;
+}
+.column{
+width: 100%;
+border-radius: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background-color: hsl(0, 0%, 95%);
+    margin: 5% 15%;
+}
+  
+.sedan-col{
+background-color: hsl(31, 77%, 52%);
+border-radius: 10px 0 0 10px;
+float: left;
+}
+
+p{
+    padding-bottom: 70px;
+    width: 220px;
+    
+}
+
+.luxurycar-col{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 10px 10px 0;
+        float: right;
+        position: relative;
+   right:0.3px;
+        }
+           
+.column{
+    text-align: left;
+    padding: 5%;
+    width: 23%; 
+    display: inline-block;
+}
+
+.suv-col{
+    background-color: hsl(184, 100%, 22%);
+   width: 24%;
+   position: relative;
+   right:0.2px;
+    }
+
+.col-heading{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%); 
+    border-radius: 20px;
+    padding: 3% 10%;
+    border: none;
+}
+
+.content{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.b-1{ 
+    color: hsl(31, 77%, 52%); 
+    border: 1px solid white;
+}
+.b-1:hover {
+    background: hsl(31, 77%, 52%); 
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.b-2{ 
+    color: hsl(184, 100%, 22%); 
+    border: 1px solid white;
+
+}
+
+.b-2:hover {
+    background: hsl(184, 100%, 22%); 
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.b-3{ 
+    color: hsl(179, 100%, 13%); 
+    border: 1px solid white;
+
+}
+.b-3:hover {
+    background: hsl(179, 100%, 13%);
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+@media (max-width: 1100px)and(min-width: 699px){
+p{
+    width: 150px;
+}
+}
+
+@media (max-width: 700px){
+.column{
+display: block;
+width: 100%;
+border-radius: 0;
+float: none;
+}
+.sedan-col{
+position: relative;
+   right:0.3px;
+}
+
+p{
+    width: auto;
+}}
+*/
+
